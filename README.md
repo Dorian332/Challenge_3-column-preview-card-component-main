@@ -30,8 +30,8 @@ Users should be able to:
 ![mobile](./screenshot/Screenshot_mobile.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://github.com/Dorian332/Challenge_3-column-preview-card-component-main)
+- Live Site URL: [Here](https://dorian332.github.io/Challenge_3-column-preview-card-component-main)
 
 ## My process
 
