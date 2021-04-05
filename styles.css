@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+:root {
+    --bright-orange-color: hsl(31, 77%, 52%);
+    --dark-cyan-color: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white-color: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+    --body-font-size: 15px;
+}
+
+body {
+    background: content-box url("https://www.annonaycestvous.fr/wp-content/uploads/2020/01/BACKGROUND-GRIS-min.jpg");
+    font-size: 15px;
+    padding-top: 5%;
+}
+
+#global {
+    background-color: var(--very-light-gray);
+    box-shadow: 3px 3px 5px 6px #ccc;
+    padding: 8%;
+    margin: auto;
+    width: 50%;
+}
+
+#preview-card{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 900px) {
+    #preview-card {
+        flex-wrap: wrap;
+    }
+    .card:first-child {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card:last-child {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+.card {
+    background-color: var(--very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 40px;
+    min-width: 120px;
+    max-width: 200px;
+    position: relative;
+}
+.card > div {
+    margin-bottom: 90px;
+}
+@media only screen and (min-width: 900px) {
+    .card:first-child {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card:last-child {
+        border-radius: 0 10px 10px 0;
+    }
+}
+.card img {
+    width: 55px;
+}
+
+.card p {
+    color: var(--transparent-white-color);
+}
+
+.card h2 {
+    color: var(--very-light-gray);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.card a {
+    border-radius: 20px;
+    border: 2px solid var(--very-light-gray);
+    background-color: var(--very-light-gray);
+    padding: 10px 30px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.card a:hover {
+   cursor: pointer;
+}
+
+
+#sedan_card {
+    background-color: var(--bright-orange-color);
+}
+
+#sedan_card a {
+    color: var(--bright-orange-color);
+}
+
+#sedan_card a:hover {
+    background-color: var(--bright-orange-color);
+    color: var(--very-light-gray);
+}
+
+#suvs_card {
+    background-color: var(--dark-cyan-color);
+}
+
+#suvs_card a{
+    color: var(--dark-cyan-color);
+}
+
+#suvs_card a:hover{
+    background-color: var(--dark-cyan-color);
+    color: var(--very-light-gray);
+}
+
+#luxury_card {
+    background-color: var(--very-dark-cyan);
+}
+
+#luxury_card a {
+    color: var(--very-dark-cyan);
+}
+
+#luxury_card a:hover{
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-gray);
+}
